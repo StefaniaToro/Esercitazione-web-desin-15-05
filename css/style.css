@@ -1,0 +1,126 @@
+body {
+    background-color: #fefefe;
+    font-family: 'Futura';
+    src: url('percorso/al/font/Futura.ttf') format('truetype');
+    margin: 0%;
+}
+
+image {
+    max-width: 100;
+}
+
+header {
+    max-width: 1100px;
+    background-color: black;
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header p {
+    margin: 0;
+    text-transform: uppercase;
+
+}
+
+header nav ul {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.container {
+    text-align: left; 
+}
+
+.square {
+    width: 100px; 
+    height: 100px; 
+    background-color: salmon; 
+    position: absolute;
+    bottom: -50px; 
+    left: 0; 
+}
+
+body {
+    font-family: 'Futura', sans-serif;
+    font-weight: 300; 
+}
+
+.image {
+    flex: 0 0 auto; 
+}
+
+.centered-text {
+    text-align: center;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header a :hover{
+    text-decoration: underline;
+}
+
+header nav a{
+    color: beige;
+}
+
+header nav a:hover {
+    color: black;
+    
+}
+
+section.info {
+    background-color: beige;
+}
+
+body {
+    background-color: black; 
+    color: white; 
+}
+
+.container {
+    display: flex; 
+}
+
+.column {
+    flex: 1; /* Distribuisce lo spazio disponibile in modo uniforme tra le colonne */
+    padding: 20px; /* Aggiunge spazio interno */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Altezza minima del corpo uguale all'altezza della finestra del browser */
+    position: relative; /* Imposta il posizionamento relativo per il contenuto assoluto del footer */
+}
+
+.content {
+    padding-bottom: 50px; /* Aggiunge spazio sotto il contenuto per evitare che il footer si sovrapponga */
+}
+
+footer {
+    position: absolute;
+    bottom: 0; 
+    width: 100%;
+    background-color: #333; /* Colore di sfondo del footer */
+    color: #fff; /* Colore del testo del footer */
+    padding: 20px;
+    text-align: center;
+}
+
+footer img {
+    display: block; 
+    margin-right: auto;
+}
+
